@@ -8,15 +8,15 @@ int main()
 {
     cout << "podaj login: ";
     cin >> login;
-    cout<< "podaj haslo: ";
-    cin >>haslo;
-    if((login=="kamilko")&&(haslo=="tak"))
+    cout << "podaj haslo: ";
+    cin >> haslo;
+    if((login == "kamilko") && (haslo == "tak"))
     {
-        cout<<"login i haslo poprawne, witamy";
+        cout << "login i haslo poprawne, witamy";
     }
     else
     {
-        cout  <<"nie udalo sie zalogowac";
+        cout << "nie udalo sie zalogowac";
     }
     return 0;
 }
